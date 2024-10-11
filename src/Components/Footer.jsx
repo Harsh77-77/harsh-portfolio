@@ -7,7 +7,7 @@ const Footer = () => {
 
 <div className="relative top-[-80px] mt-[-96px] bg-gray-800 text-white w-full h-96 ">
     <img
-      src="/assets/education.gif"
+    src={`${import.meta.env.BASE_URL}/assets//education.gif`}
       alt="img"
       className="object-scale-down h-40 lg:h-96 float-right hidden lg:block  mt-80 lg:mt-0"
     ></img>

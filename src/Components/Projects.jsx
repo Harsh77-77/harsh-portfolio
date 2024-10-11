@@ -18,7 +18,7 @@ const Projects = () => {
         <div className="flex flex-col items-center text-center">
           <a href="https://harsh77-77.github.io/Sundown-/" target="_blank" rel="noopener noreferrer">
             <img
-              src="/assets/sundown.png"
+            src={`${import.meta.env.BASE_URL}/assets/sundown.png`}
               alt="Sundown"
               className="h-72 w-auto rounded-xl transition-transform hover:scale-105 duration-300 hover:shadow-2xl"
             />
@@ -31,11 +31,9 @@ const Projects = () => {
 
         <div className="flex flex-col items-center text-center">
           <a href="https://harsh-assignment-pop-rock-crystal.vercel.app/" target="_blank" rel="noopener noreferrer">
-            <img
-              src="/assets/pop rock.png"
-              alt="Pop Rock Crystal"
-              className="h-72 w-auto rounded-xl transition-transform hover:scale-105 duration-300 hover:shadow-2xl"
-            />
+            <img 
+            src={`${import.meta.env.BASE_URL}/assets/pop rock.png`}
+            alt="pop rock crystal" className="h-72 w-auto rounded-xl transition-transform hover:scale-105 duration-300 hover:shadow-2xl" />
           </a>
           <h1 className="pt-6 text-3xl font-semibold">Pop Rock Crystal</h1>
           <p className="pt-3 max-w-md">
@@ -46,7 +44,7 @@ const Projects = () => {
         <div className="flex flex-col items-center text-center">
           <a href="https://fleava-psi.vercel.app/" target="_blank" rel="noopener noreferrer">
             <img
-              src="/assets/fleava.png"
+            src={`${import.meta.env.BASE_URL}/assets/fleava.png`}
               alt="Fleava"
               className="h-72 w-auto rounded-xl transition-transform hover:scale-105 duration-300 hover:shadow-2xl"
             />
@@ -60,7 +58,7 @@ const Projects = () => {
         <div className="flex flex-col items-center text-center">
           <a href="https://harsh-s-user-management-application.vercel.app/" target="_blank" rel="noopener noreferrer">
             <img
-              src="/assets/UM.png"
+            src={`${import.meta.env.BASE_URL}/assets/UM.png`}
               alt="User Management App"
               className="h-72 w-auto rounded-xl transition-transform hover:scale-105 duration-300 hover:shadow-2xl"
             />
