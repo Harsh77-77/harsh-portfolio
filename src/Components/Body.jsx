@@ -1,5 +1,5 @@
 import React from "react";
-
+import me from "../assets/me.png";
 const Body = () => {
   return (
     <div className="">
@@ -44,7 +44,8 @@ const Body = () => {
         <div className="  hidden lg:block items-center">
           <div className="  right-0 top-64 w-96 h-96 rounded-full bg-blue-500 overflow-hidden mt-72 lg:absolute lg:mt-0 lg:transform lg:translate-y- lg:w-96 lg:h-96 lg:rounded-full lg:overflow-hidden lg:right-56 lg:  "></div>{" "}
           <img
-           src={`${import.meta.env.BASE_URL}assets/me.png`}
+          //  src={`${import.meta.env.BASE_URL}assets/me.png`}
+          src={me}
             // src="/assets/me.png"
             alt="img"
             className=" absolute w-[350px] top-[170px] right-[245px] "

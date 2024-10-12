@@ -1,5 +1,5 @@
 import React from "react";
-
+import coding from "../assets/coding.gif";
 const AboutMe = () => {
   return (
     
@@ -37,7 +37,7 @@ const AboutMe = () => {
           </div>
           <div className=" pt-16 hidden lg:block ">
             <img
-              src="/assets/coding.gif"
+              src={coding}
               alt="logo"
               className="object-scale-down h-72"
             ></img>
